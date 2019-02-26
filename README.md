@@ -9,7 +9,7 @@
 <tr><td>Rewards</td><td>MN 80% / POS 20%</td></tr>
 <tr><td>Maturity</td><td>120 blocks</td></tr>
 <tr><td>Max Coin Supply</td><td>25,001,000</td></tr>
-<tr><td>Premine</td><td>1.31% (400000)</td></tr>
+<tr><td>Premine</td><td>1.6% (400000)</td></tr>
 <tr><td>Block maturity</td><td>120 blocks</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Min Staking age</td><td>3 hours</td></tr>
