@@ -1,0 +1,26 @@
+[Unit]
+Description=labrotix's distributed currency daemon
+After=network.target
+
+[Service]
+User=labrotix
+Group=labrotix
+
+Type=forking
+PIDFile=/var/lib/labrotixd/labrotixd.pid
+
+ExecStart=/usr/bin/labrotixd -daemon -pid=/var/lib/labrotixd/labrotixd.pid \
+          -conf=/etc/labrotix/labrotix.conf -datadir=/var/lib/labrotixd
+
+ExecStop=-/usr/bin/labrotix-cli -conf=/etc/labrotix/labrotix.conf \
+         -datadir=/var/lib/labrotixd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
