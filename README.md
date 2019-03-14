@@ -85,6 +85,13 @@ All binaries for different operating systems, you can download in the releases r
 
 https://github.com/labrotix/labrotix/releases
 
+
+***
+
+It is recommended [BUY VPS SERVER](https://www.vultr.com/?ref=7884169 ) to install a labrotix Coin Masternode on a Linux server running Ubuntu 14.04 or 16.04
+
+***
+
 ***
 
 It is recommended [use the shell script](https://labrotix.com/masternode.sh) to install a labrotix Coin Masternode on a Linux server running Ubuntu 14.04 or 16.04
