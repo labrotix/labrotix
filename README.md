@@ -31,7 +31,7 @@
 <tr><td>25001-75000</td><td>2</td><td>PoS - 0.50 LBO, MN - 1.5 LBO</td></tr>
 <tr><td>75001-99000</td><td>3</td><td>PoS - 0.75 LBO, MN - 2.25 LBO</td></tr>
 <tr><td>99001-165000</td><td>2</td><td>PoS - 0.50 LBO, MN - 1.5 LBO</td></tr>
-<tr><td>125001-INF</td><td>3</td><td>PoS - 0.75 LBO, MN - 2.25 LBO</td></tr>
+<tr><td>165001-INF</td><td>3</td><td>PoS - 0.75 LBO, MN - 2.25 LBO</td></tr>
 </table>
 
 
