@@ -160,6 +160,7 @@ public:
 
         vSeeds.push_back(CDNSSeedData("node1", "node1.labrotix.com"));       // Single node address
         vSeeds.push_back(CDNSSeedData("node2", "node2.labrotix.com"));       // Single node address
+	vSeeds.push_back(CDNSSeedData("node3", "node3.labrotix.com"));       // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 60);
