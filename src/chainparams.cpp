@@ -161,7 +161,8 @@ public:
         vSeeds.push_back(CDNSSeedData("node1", "node1.labrotix.com"));       // Single node address
         vSeeds.push_back(CDNSSeedData("node2", "node2.labrotix.com"));       // Single node address
 	vSeeds.push_back(CDNSSeedData("node3", "node3.labrotix.com"));       // Single node address
-	vSeeds.push_back(CDNSSeedData("node4", "node4.labrotix.com"));       // Single node address
+	vSeeds.push_back(CDNSSeedData("", "node4.labrotix.com"));
+	vSeeds.push_back(CDNSSeedData("", "node5.labrotix.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 60);
@@ -185,7 +186,7 @@ public:
 
         nPoolMaxTransactions = 3;
         strSporkKey = "04e1031000925551e2b911e3740b3228b93d6515c07865f564cbd8b983f4145713d3ae9eb524c27ed3614e419c577afcaaa4eb301d86f231274f42dd854a6a237a";
-        strObfuscationPoolDummyAddress = "SWSSzyG7DgbHXntZDYuVdBR8dGkfdjgtEg";
+        strObfuscationPoolDummyAddress = "STFrqBB3rTtrxiRRtxLyMnf9fFY2yTUdqd";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
 
         /** Zerocoin */
